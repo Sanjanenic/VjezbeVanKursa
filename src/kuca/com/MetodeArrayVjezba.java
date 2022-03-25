@@ -1,7 +1,5 @@
 package kuca.com;
 
-import java.util.Arrays;
-
 public class MetodeArrayVjezba {
     public static void main(String[] args) {
 
@@ -18,6 +16,11 @@ public class MetodeArrayVjezba {
 
         // primjer 3
         primiIspisiNiz(getNiz());
+
+        //sumirati niz
+        int[]niz ={10,20,20};
+        int sumErgebniss=sumirajElemente(niz);
+        System.out.println(sumErgebniss);
     }
 
 
@@ -43,5 +46,14 @@ public class MetodeArrayVjezba {
         }
 
         return okrenut;
+
+
+    }
+    public static int sumirajElemente(int[]niz){
+        int sum=0;
+        for(int i =0; i<niz.length;i++){
+            sum=sum+niz[i];
+        }
+        return sum;
     }
 }
