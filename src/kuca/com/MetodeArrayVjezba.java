@@ -21,6 +21,11 @@ public class MetodeArrayVjezba {
         int[]niz ={10,20,20};
         int sumErgebniss=sumirajElemente(niz);
         System.out.println(sumErgebniss);
+
+//metoda koja povecava svaki drugi clan array za 1
+        int []niz1={1,2,3,4,5,6};
+        int []nizPomocni=povecajSvakiDrugiElementNizaZaJedan(niz1);
+        primiIspisiNiz(nizPomocni);
     }
 
 
@@ -55,5 +60,15 @@ public class MetodeArrayVjezba {
             sum=sum+niz[i];
         }
         return sum;
+    }
+    //metoda koja povecava svaki drugi clan array za 1
+    public static int [] povecajSvakiDrugiElementNizaZaJedan(int[]niz){
+       for(int i=0; i<niz.length; i++) {
+           if(i%2==0){
+               niz[i]= niz[i+1];
+
+           }
+       }
+       return niz;
     }
 }
