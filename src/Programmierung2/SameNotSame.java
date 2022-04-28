@@ -16,10 +16,30 @@ public class SameNotSame {
         //System.out.println(Beagle.class);
 
         //if(b.getClass().equals(Beagle.class)){
-       // System.out.println("the same");
-   // }
+        // System.out.println("the same");
+        // }
 
         //Object obj =b;
         //sout  (obj.Class());
+
+        // situation 2:
+        //ovdje me ne zanima tacan tip samo neophodne stvari da li je to correct callas, subclass, interface...
+        //if (b instanceof Beagle({
+        //System.out.println("yep");
+    //}
+        //if (b instanceof Beagle({
+                //System.out.println("yep");
+                //}
+
+      //  if (b instanceof Dog({
+                //System.out.println("yep");
+                //}
+
+       // if (obj instanceof Beagle({
+                //System.out.println("yep");
+                //}
     }
 }
+
+//napraviti interface GoestoParty  u Hase.
+
