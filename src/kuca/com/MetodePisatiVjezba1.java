@@ -6,7 +6,7 @@ public class MetodePisatiVjezba1 {
 
 
     }
-
+//ispisati zbir elemenata array
     public static int sabiranjeBrojeva(int prviBroj, int drugiBroj){
 
         int zbir=0;
